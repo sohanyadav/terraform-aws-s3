@@ -8,7 +8,7 @@ locals {
 }
 
 module "kms_key" {
-  source      = "git::git@github.com:opsstation/terraform-aws-kms?ref=v1.0.0"
+  source      = "git::git@github.com:sohanyadav/terraform-aws-kms?ref=v1.0.0"
   name        = "kms11"
   environment = local.environment
   label_order = local.label_order
